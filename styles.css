@@ -1,0 +1,47 @@
+/* Sajid Ahmadzai Styles CSS*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #0053ed;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#main-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#sidebar {
+    flex: 1;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    height: fit-content;
+}
+
+#content {
+    flex: 3;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+}
+
+#result {
+    font-size: 1.2em;
+    color: green;
+}
